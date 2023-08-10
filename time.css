@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fahkwang', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-con h1 {
+    text-align: right;
+    color: #C7AB63;
+    margin-right: 20px;
+    font-size: 180px;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: -17.6px;
+}
+.social-icon{
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    display: inline;
+}
+
+.social-icon i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: black;
+    padding-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a,
+a:visited {
+    text-decoration: none;
+    color: #E7DEDE;
+    padding: 20px;
+    font-size: 1.5em;
+}
+#ex-c{
+    color: #C7AB63;
+}
+
+h2 {
+    font-size: 2em;
+    background-color: #C7AB63;
+    width: 20%;
+    color: white;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.bg-img {
+    background-image: url("/images/appolon.jpg");
+    min-height: 1060px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.ticket-form {
+    position: absolute;
+    right: 30%;
+    margin: 20px;
+    width: 270px;
+    bottom: -30px;
+    padding: 16px;
+}
+
+.ticket-form h3 {
+    color: #C7AB63;
+    text-transform: uppercase;
+}
+
+.ticket-form h4 {
+    color: white;
+    font-weight: 100;
+}
+
+.btn {
+    background-color: #C7AB63;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.gallery-img img{
+    width: 30%;
+    margin-top: 40px;
+
+}
+
+.ticket-form-1 {
+    float: right;
+    margin: 40px;
+    width: 300px;
+    margin-top: 548px;
+    
+}
+
+
+.ticket-form-1 h3 {
+    color: #C7AB63;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.ticket-form-1 h4 {
+    color: black;
+    font-weight: 100;
+    text-align: left;
+    
+}
+
+.btn-1 {
+    background-color: #C7AB63;
+    color: white;
+    padding: 16px 100px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.btn-1:hover {
+    opacity: 1;
+}
+
+.footer {
+    height: 189px;
+    width: 100%;
+    background-color: #C7AB63;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.footer p{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 510px;
+}
+
+.social-icons{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
