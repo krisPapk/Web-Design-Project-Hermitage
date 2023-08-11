@@ -47,24 +47,25 @@
   
   nav {
     margin-top: 10px;
-    margin-left: 2.5%;
+    margin-left: 3.5%;
     padding: 5px;
     background-color: black;
     text-align: right;
-    width: 120%;
+    width: 150%;
   }
   
   nav ul {
     list-style: none;
+    text-align: left;
   }
   
   nav li {
     display: inline;
   }
+ 
   
   nav a,
   a:visited {
-    font-family: 'Fahkwang', sans-serif;
     text-decoration: none;
     color: #E7DEDE;
     padding: 10px;
@@ -235,52 +236,43 @@
   
   
   @media (max-width: 900px) {
-    .container{
-      box-sizing: border-box;
-  
-    }
-    .container img {
-      max-width: 100%; 
-    }
-  
     nav {
       margin-top: -860px;
+      margin-left: -20px;
       font-size: 10px;
-      margin-left: -10px;
-      width: 562px;
-      height: 40px;
+      width: 150px;
+      height: 100px;
       text-align: center;
+      flex-direction:column ;
     }
-    .search-icon i {
-      font-size: 10px;
-    }
+ 
     nav ul {
       list-style: none;
       display: inline;
       margin-left: -30px;
     }
-  
-    nav li {
-      display:contents;
-      
+    .search-icon i {
+      font-size: 13px;
     }
+  
     .bottom-left {
       position: absolute;
-      top: 140px;
+      top: 70px;
       left: 3px;
       font-size: 60px;
     }
-    h2{
-      display: inline-block;
-      text-align: right;
-    }
+    h2 {
+      width: 330px;
+      text-align: left;
+      margin-left: 0px;
+      background-color: #C7AB63;
+  }
     p{
       margin: 0;
     }
   
-  
   .main-img {
-    width: 560px;
+    width: 105%;
   }
   
   
@@ -295,20 +287,19 @@
     
   }
   #myBtn{
-    margin-left: 390px;
+    margin-left: 314px;
   }
   
   .bot-day {
     position:sticky;
-    font-size: 1.6em;
+    font-size: 25px;
     top: 700px;
     text-align: left;
     display: inline;
   }
   .bot-day p {
     margin-top: 20px;
-  
-    font-size: 20px;
+    font-size: 13px;
     width: auto;
     display: flex;
     background: none;
