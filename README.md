@@ -1,6 +1,6 @@
 # Kristina Papko/Hermitage Project
 
-Implementation redesign of main website of Hermitage. Hermitage is one of the main museum in Russia.
+The implementation of a redesign for the main website of the Hermitage, one of the most prominent museums in Russia, is a significant and complex undertaking. The project involves various stages and considerations to ensure a successful and impactful outcome. 
 
 ## Table of Contents
 
