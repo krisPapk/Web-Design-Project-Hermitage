@@ -14,9 +14,10 @@ body {
     color: #C7AB63;
     margin-right: 20px;
     font-size: 180px;
-    font-weight: 100;
+    font-weight: lighter;
     line-height: normal;
-    letter-spacing: -17.6px;
+    letter-spacing: 3px;
+    margin-bottom: auto;
 }
 .social-icon{
     text-align: left;
@@ -60,8 +61,9 @@ h2 {
     background-color: #C7AB63;
     width: 20%;
     color: white;
-    text-align: right;
-    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .bg-img {
@@ -117,8 +119,7 @@ h2 {
     float: right;
     margin: 40px;
     width: 300px;
-    margin-top: 548px;
-    
+    margin-top: 218px;
 }
 
 
@@ -177,3 +178,63 @@ h2 {
     cursor: pointer;
 }
 
+@media (max-width: 900px) {
+    .body{
+        box-sizing: border-box;
+    
+      }
+   nav{
+    width: auto;
+   }
+   nav ul {
+    list-style: none;
+    display: inline;
+    margin-left: -30px;
+  }
+  
+   .header-con h1 {
+    font-size: 70px;
+    letter-spacing: normal;
+   }
+   h2{
+    width: 830px;
+    text-align: left;
+    margin-left: 10px;
+    background-color: #C7AB63;
+    margin: auto;
+   }
+
+
+img{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 80px;
+    top: 700px;
+}
+
+.ticket-form {
+    position: absolute;
+    right: 10%;
+    margin: 20px;
+    width: 270px;
+    top: 800px;
+    padding: 16px;
+}
+.ticket-form-1 {
+    float: none;
+    margin-top: 1px;
+    margin-left: 80px;
+}
+
+.footer{
+    height: auto;
+  }
+  
+  .footer p {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+
+  }
