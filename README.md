@@ -5,47 +5,22 @@ Implementation redesign of main website of Hermitage. Hermitage is one of the ma
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
 
-A brief overview of your project. Explain what it does and why it's useful.
+The "Hermitage Site Redesign" project aims to modernize and enhance the online presence of the Hermitage, a renowned cultural institution and museum. The project involves revamping the existing website to provide visitors with a more visually appealing, user-friendly, and informative online experience.
 
-## Features
+Key Objectives:
 
-List the key features or functionalities of your project.
+1. **Modern Visual Design**: The redesigned website will feature a contemporary and visually engaging design that reflects the prestige and cultural significance of the Hermitage. It will incorporate high-quality imagery, intuitive layouts, and elegant typography to captivate visitors' attention.
 
-## Getting Started
+2. **Enhanced User Experience**: By implementing a user-centered design approach, the new site will prioritize ease of navigation and accessibility. Visitors will be able to explore the museum's vast collection, exhibitions, and events seamlessly, making it effortless for them to find the information they need.
 
-Instructions on how to get your project up and running locally.
+3. **Responsive and Mobile-Friendly**: The redesign will ensure that the website is fully responsive, providing an optimal viewing experience across various devices and screen sizes. This responsiveness is crucial in today's mobile-centric world, enabling users to access the Hermitage's offerings on smartphones and tablets.
 
-### Prerequisites
-
-List any software, tools, or libraries that need to be installed before setting up your project.
-
-### Installation
-
-Step-by-step instructions on how to install and set up your project.
-
-## Usage
-
-Examples and instructions on how to use your project. Provide code snippets or screenshots if needed.
-
-## Contributing
-
-Explain how others can contribute to your project. Include guidelines for submitting issues and pull requests.
-
-## License
-
-This project is licensed under the [Your License Name](LICENSE) - Mention the type of license your project uses.
 
 ## Contact
-
-Provide your contact information, such as email or social media profiles, in case others need to reach out to you.
+Feel free to email me
+papko.kristina.qa@gmail.com
+My LinkedIn https://www.linkedin.com/in/kristinapapko/
