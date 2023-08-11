@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Fahkwang', sans-serif;
   margin: 0;
@@ -22,10 +18,10 @@ body {
 
 .bottom-left {
   position: absolute;
+  
   bottom: -34px;
   left: 23px;
   color: #C7AB63;
-  font-family: Gilroy;
   font-size: 200px;
   font-weight: 300;
   line-height: 251px;
@@ -126,7 +122,6 @@ h3 {
   margin-left: 700px;
   font-size: 17px;
   cursor: pointer;
-  font-family: 'Fahkwang', Courier, monospace;
   text-align: right;
 }
 
@@ -179,7 +174,6 @@ h3 {
 .bot-day {
   position: absolute;
   color: #C7AB63;
-  font-family: Gilroy;
   left: 50%;
   font-size: 50px;
   width: 40%;
@@ -241,33 +235,96 @@ h3 {
 
 
 @media (max-width: 900px) {
-  main {
-    display: flex;
-  }
+  .container{
+    box-sizing: border-box;
 
-  img {
-    max-width: 100%;
-    height: auto;
-    display: inline;
+  }
+  .container img {
+    max-width: 100%; 
   }
 
   nav {
-    position: relative;
-    margin-top: -820px;
+    margin-top: -860px;
     font-size: 10px;
-    width: 400px;
-    height: 150px;
-    background-color: black;
+    margin-left: -10px;
+    width: 562px;
+    height: 40px;
+    text-align: center;
   }
-
-  .bottom-left {
-    margin-top: -820px;
-    font-size: 100px;
+  .search-icon i {
+    font-size: 10px;
+  }
+  nav ul {
+    list-style: none;
+    display: inline;
+    margin-left: -30px;
   }
 
   nav li {
-    display: block;
+    display:contents;
+    
   }
+  .bottom-left {
+    position: absolute;
+    top: 140px;
+    left: 3px;
+    font-size: 60px;
+  }
+  h2{
+    display: inline-block;
+    text-align: right;
+  }
+  p{
+    margin: 0;
+  }
+
+
+.main-img {
+  width: 560px;
+}
+
+
+h3{
+margin-top: -10px;
+text-align: center;
+}
+
+.bot-container img{
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+#myBtn{
+  margin-left: 390px;
+}
+
+.bot-day {
+  position:sticky;
+  font-size: 1.6em;
+  top: 700px;
+  text-align: left;
+  display: inline;
+}
+.bot-day p {
+  margin-top: 20px;
+
+  font-size: 20px;
+  width: auto;
+  display: flex;
+  background: none;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.footer{
+  height: auto;
+}
+
+.footer p {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 30px;
+}
 
 
 }
