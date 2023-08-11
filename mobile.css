@@ -1,61 +1,273 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fahkwang', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: static;
+}
+
+.container img {
+  width: 100%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: -34px;
+  left: 23px;
+  color: #C7AB63;
+  font-family: Gilroy;
+  font-size: 200px;
+  font-weight: 300;
+  line-height: 251px;
+  letter-spacing: -0.05em;
+}
+
+.top-left {
+  position: absolute;
+  top: 855px;
+  left: 10px;
+}
+
+.search-icon {
+  color: white;
+  display: inline;
+}
+
+.search-icon i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 10px;
+  margin-left: 2.5%;
+  padding: 5px;
+  background-color: black;
+  text-align: right;
+  width: 120%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a,
+a:visited {
+  font-family: 'Fahkwang', sans-serif;
+  text-decoration: none;
+  color: #E7DEDE;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.container-center {
+  width: 900px;
+  min-width: 300px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: auto;
+  text-align: right;
+  display: inline;
+}
+
+.main-img {
+  width: 50%;
+  float: left;
+  min-width: 300px;
+  margin-right: 20px;
+  margin-left: 30px;
+  display: inline;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 2em;
+  background-color: #C7AB63;
+  width: 20%;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+h3 {
+  display: block;
+  color: #C7AB63;
+  font-size: 1.6em;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.container-center p {
+  font-size: 4em;
+  margin-right: 20px;
+}
+
+#myBtn {
+  border: none;
+  background-color: inherit;
+  margin-left: 700px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: 'Fahkwang', Courier, monospace;
+  text-align: right;
+}
+
+#myBtn:hover {
+  background: #C7AB63;
+}
+
+
+.footer {
+  height: 189px;
+  width: 100%;
+  background-color: #C7AB63;
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.footer p {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 510px;
+}
+
+.footer a {
+  color: white;
+  float: right;
+  text-decoration: none;
+}
+
+.social-icons {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.bot-container {
+  margin-top: 20px;
+  position: static;
+  text-align: center;
+}
+
+
+.bot-day {
+  position: absolute;
+  color: #C7AB63;
+  font-family: Gilroy;
+  left: 50%;
+  font-size: 50px;
+  width: 40%;
+  height: 30%;
+  bottom: -1300px;
+}
+
+.bot-day p {
+  color: white;
+  left: 30%;
+  text-align: left;
+  font-size: 20px;
+  width: 700px;
+  height: 130px;
+  bottom: -100px;
+  background-color: #C7AB63;
+}
+
+@media (max-width: 900px) {
+  .container-center {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .main-img {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .footer p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .bot-day p {
+    width: 100%;
+    left: 0;
+    height: auto;
+    bottom: 1px;
+  }
+}
 
 
 @media (max-width: 900px) {
+  main {
+    display: flex;
+  }
 
-    body{
-        max-width: 900px; 
-        margin: 0 auto; 
-        padding: 20px; 
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: inline;
+  }
 
-    img{
-        display: flex;
-        width: 100%;
-    }
-     
-    .container-center {
-      width: 100%;
-      margin-left: 0;
-      text-align: center;
-    }
-  
-    .main-img {
-      width: 100%;
-      float: none;
-      margin: 0;
-    }
-  
-    h2 {
-      width: 100%;
-      text-align: center;
-      margin-left: 0;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-  
-    h3 {
-      text-align: center;
-      margin-left: 0;
-    }
-  
-    .footer p {
-      width: 100%;
-      font-size: 18px;
-      text-align: center;
-      margin-left: 0;
-    }
-  
-    .bot-day p {
-      width: 100%;
-      left: 0;
-      height: auto;
-      bottom: 1px;
-    }
+  nav {
+    position: relative;
+    margin-top: -820px;
+    font-size: 10px;
+    width: 400px;
+    height: 150px;
+    background-color: black;
+  }
+
+  .bottom-left {
+    margin-top: -820px;
+    font-size: 100px;
+  }
+
+  nav li {
+    display: block;
   }
 
 
-
-
-
-
-
+}
