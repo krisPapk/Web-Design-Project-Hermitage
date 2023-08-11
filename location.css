@@ -176,55 +176,53 @@ h2 {
 @media (max-width: 900px) {
     .body {
         box-sizing: border-box;
-
     }
 
     nav {
-        width: auto;
+        width: 100%;
     }
 
     nav ul {
         list-style: none;
-        display: inline;
-        margin-left: -30px;
+        display: inline-flex;
+        font-size: 12px;
+        flex-direction: column;
     }
 
     .header-con h1 {
-        font-size: 70px;
+        font-size: 40px;
         letter-spacing: normal;
     }
 
     h2 {
-        width: 830px;
+        width: 330px;
         text-align: left;
-        margin-left: 10px;
+        margin-left: 0px;
         background-color: #C7AB63;
-        margin: auto;
+      
     }
 
     .img-1 {
-        width: 80%;
+        width: 100%;
+        margin: 0;
         margin-bottom: 20px;
         top: 700px;
     }
 
-    img {
-        width: 80%;
-        margin-top: 20px;
-        margin-left: 80px;
-        top: 700px;
+    .img-2 {
+        width: 100%;
+        margin: 0;
+        top: 600px;
     }
 
     .address {
         position: absolute;
         right: 3%;
-        margin: 40px;
+        margin: 460px auto;
         width: 270px;
-
-        top: 600px;
-        float: none;
-        margin-top: 90px;
-        margin-left: 80px;
+        top: 460px;
+  
+      
     }
 
     .footer {
@@ -239,9 +237,9 @@ h2 {
 
     .container-3 {
         max-width: 300px;
-        margin: 40px auto;
+        margin: 400px auto;
         padding: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 90px;
     }
 
     .container-3 h1 {
